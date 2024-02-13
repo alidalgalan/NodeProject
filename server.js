@@ -21,7 +21,7 @@ app.use(cors());
 // });
 
 
-mongoose.connect("mongodb+srv://20120348neu:11223344@cluster0.i7vqtw0.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://<Username>:<Password>@cluster0.i7vqtw0.mongodb.net/?retryWrites=true&w=majority");
 
 const db = mongoose.connection;
 
